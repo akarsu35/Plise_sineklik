@@ -81,12 +81,12 @@ function NavListMenu() {
     ) => (
       <Link to={path} key={key}>
         <a href="#" key={key}>
-          <MenuItem className="flex items-center gap-3 rounded-lg w-24 h-32">
+          <MenuItem className="flex items-center gap-3 rounded-lg w-24 h-16">
             <div>
               <Typography
                 variant="h6"
                 color="blue-gray"
-                className="flex items-center text-md font-bold"
+                className="flex items-center text-sm font-bold"
               >
                 {title}
               </Typography>
@@ -115,7 +115,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as="div" variant="small" className="font-bold">
             <ListItem
-              className="flex items-center gap-2 py-2 pr-4 text-gray-900 font-bold"
+              className="flex items-center gap-2 py-2 pr-4 text-gray-900 font-bold text-lg"
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -158,7 +158,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold"
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">
+        <ListItem className="flex items-center gap-2 py-2 pr-4 text-lg">
           <Link to="/">ANASAYFA</Link>
         </ListItem>
       </Typography>
@@ -170,7 +170,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold"
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">
+        <ListItem className="flex items-center gap-2 py-2 pr-4 text-lg">
           <Link to="/about-us">HAKKIMIZDA</Link>
         </ListItem>
       </Typography>
@@ -185,7 +185,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold"
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">
+        <ListItem className="flex items-center gap-2 py-2 pr-4 text-lg">
           <Link to="/whatis-healy">UYGULAMALARIMIZ</Link>
         </ListItem>
       </Typography>
@@ -196,7 +196,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold"
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">
+        <ListItem className="flex items-center gap-2 py-2 pr-4 text-lg">
           <Link to="/campaigns"> KAMPANYALAR</Link>
         </ListItem>
       </Typography>
@@ -216,7 +216,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold"
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">
+        <ListItem className="flex items-center gap-2 py-2 pr-4 text-lg">
           <Link to="/contact-us"> İLETİŞİM</Link>
         </ListItem>
       </Typography>
