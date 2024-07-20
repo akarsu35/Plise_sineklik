@@ -1,4 +1,4 @@
-import Social from "../social/Social";
+import Social from '../social/Social'
 
 export default function Campaigns() {
   return (
@@ -22,16 +22,10 @@ export default function Campaigns() {
             Antalya Plise Sineklik olarak, kurulduğumuz günden bu yana müşteri
             memnuniyetini hedeflemekte ve garanti etmekteyiz. Katlanır, pileli
             ve akordeon sineklik çeşitleri için güvenilir hizmet ve hızlı montaj
-            sunuyoruz.{' '}
-            <br />
-            <span className="text-red-400">
-             Kampanyalar için takipte kalın 
-            </span>
-           
+            sunuyoruz. <br />
+            <span className="text-red-600">Kampanyalar için takipte kalın</span>
           </h3>
-          <div>
-           
-          </div>
+          <div></div>
         </div>
       </div>
     </div>
