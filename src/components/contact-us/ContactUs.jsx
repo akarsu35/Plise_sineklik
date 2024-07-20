@@ -79,15 +79,15 @@ export default function ContactUs() {
     }
   }
 
-  const [isSkeleton,setIsSkeleton]=useState(true)
-  useEffect(()=>{
-    const timer=setTimeout(() => {
-        setIsSkeleton(false)
-    }, 3000);
-  },[])
+  const [isSkeleton, setIsSkeleton] = useState(true)
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsSkeleton(false)
+    }, 3000)
+  }, [])
 
   return (
-    <div className="min-h-[72.7vh] bg-gray-100 flex flex-col items-center justify-center lg:flex-row">
+    <div className="relative min-h-[72.7vh] bg-gray-100 flex flex-col items-center justify-center lg:flex-row">
       {isSnackbar && (
         <Snackbar
           open={isSnackbar}
@@ -104,7 +104,12 @@ export default function ContactUs() {
           </Alert>
         </Snackbar>
       )}
-      <div className="sm:w-[300px] md:w-[400px] lg:w-[500px]">
+      <div className="absolute text-center top-2">
+        <h3 className="text-4xl font-bold">İLETİŞİM</h3>
+        <div className="w-96 h-2 bg-red-500 rounded-md"></div>
+      </div>
+
+      <div className="sm:w-[300px] md:w-[400px] lg:w-[500px] my-16">
         {isSkeleton ? <CardPlacehoderSkeleton /> : <Maps />}
       </div>
 

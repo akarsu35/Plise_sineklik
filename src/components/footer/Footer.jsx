@@ -16,12 +16,12 @@ const Footer = () => {
         <div className="w-full text-center">
           <div className="mb-4">
             <h2 className="text-2xl font-bold">Bizi Takip Edin</h2>
-            <h3 className='my-4'>
+            <h3 className="my-4">
               Pazar günü hariç hergün 08.00-18.00 arası hizmet vermekteyiz
             </h3>
           </div>
           <div className="flex  justify-center space-x-6">
-            <div className="flex gap-2 mx-4">
+            {/* <div className="flex gap-2 mx-4">
               <a
                 href="#"
                 aria-label="Facebook sayfamızı ziyaret et"
@@ -52,16 +52,16 @@ const Footer = () => {
               >
                 <FaYoutube className="text-white text-lg" />
               </a>
-            </div>
+            </div> */}
             <div className="flex gap-2">
               <a
-                href="https://wa.me/905510141450"
+                href="https://wa.me/905519614009"
                 className="bg-[#B756A0] rounded-full p-1 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 <FaWhatsapp className="text-white text-lg" />
               </a>
               <a
-                href="https://wa.me/905510141450"
+                href="https://wa.me/905519614009"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hidden md:block"
@@ -70,18 +70,18 @@ const Footer = () => {
                 0551 961 40 09
               </a>
               <a
-                href="mailto:goncaakarsu35@gmail.com"
+                href="mailto:mehmetakarsu55@yandex.com"
                 aria-label="E-posta gönder"
                 className="bg-[#B756A0] rounded-full p-1 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 <FaEnvelope className="text-white text-lg" />
               </a>
               <a
-                href="mailto:goncaakarsu35@gmail.com"
+                href="mailto:mehmetakarsu55@yandex.com"
                 className="text-white hidden md:block"
                 aria-label="E-posta gönder"
               >
-                goncaakarsu35@gmail.com
+                mehmetakarsu55@yandex.com
               </a>
             </div>
           </div>

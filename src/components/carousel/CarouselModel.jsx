@@ -42,7 +42,7 @@ export default function CarouselModel() {
             alt=""
             className="p-2 h-full w-full object-cover"
           />
-          <div className="absolute bottom-2 left-[50%] translate-x-[-50%] flex justify-center items-center w-40 h-10 bg-green-500 text-center rounded-md">
+          <div className="absolute bottom-2 left-[50%] translate-x-[-50%] flex justify-center items-center w-40 h-10 bg-[#D74008] text-center rounded-md">
             <button className="p-2 font-bold text-white">İNCELE</button>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function CarouselModel() {
             alt=""
             className="p-2 h-full w-full object-cover"
           />
-          <div className="absolute bottom-2 left-[50%] translate-x-[-50%] flex justify-center items-center w-40 h-10 bg-green-500 text-center rounded-md">
+          <div className="absolute bottom-2 left-[50%] translate-x-[-50%] flex justify-center items-center w-40 h-10 bg-[#D74008] text-center rounded-md">
             <button className="p-2 font-bold text-white">İNCELE</button>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function CarouselModel() {
             alt=""
             className="p-2 h-full w-full object-cover"
           />
-          <div className="absolute bottom-2 left-[50%] translate-x-[-50%] flex justify-center items-center w-40 h-10 bg-green-500 text-center rounded-md">
+          <div className="absolute bottom-2 left-[50%] translate-x-[-50%] flex justify-center items-center w-40 h-10 bg-[#D74008] text-center rounded-md">
             <button className="p-2 font-bold text-white">İNCELE</button>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function CarouselModel() {
             alt=""
             className="p-2 h-full w-full object-cover"
           />
-          <div className="absolute bottom-2 left-[50%] translate-x-[-50%] flex justify-center items-center w-40 h-10 bg-green-500 text-center rounded-md">
+          <div className="absolute bottom-2 left-[50%] translate-x-[-50%] flex justify-center items-center w-40 h-10 bg-[#D74008] text-center rounded-md">
             <button className="p-2 font-bold text-white">İNCELE</button>
           </div>
         </div>

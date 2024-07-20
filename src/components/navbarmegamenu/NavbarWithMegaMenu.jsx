@@ -247,14 +247,13 @@ export function NavbarWithMegaMenu() {
         <div className="flex items-center justify-between text-blue-gray-900">
           <a href="#" className="pl-12">
             <img
-              width="120"
-              height="38"
-              src="https://turkiye.healy.shop/wp-content/uploads/2022/10/Healy-Horizontal-Logo-with-Dot-RGB@2x-1-120x38.png"
+              width="80"
+              height="24"
+              src="./images/logo.png"
               className="custom-logo"
               alt="Healy Shop Turkiye"
               decoding="async"
-              srcSet="https://turkiye.healy.shop/wp-content/uploads/2022/10/Healy-Horizontal-Logo-with-Dot-RGB@2x-1-120x38.png 1x, https://turkiye.healy.shop/wp-content/uploads/2022/10/Healy-Horizontal-Logo-with-Dot-RGB@2x-1.png 2x"
-              sizes="(max-width: 120px) 100vw, 120px"
+              sizes="(max-width: 80px) 100vw, 80px"
             ></img>
           </a>
 
