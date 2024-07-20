@@ -6,10 +6,11 @@ module.exports = withMT({
     './node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}', // flowbite içerik yolu
   ],
   theme: {
-    extend: {},
+    extend: {
+      display: ['group-hover'],
+    },
   },
   plugins: [
     require('flowbite/plugin'), // flowbite eklentisini dahil edin
   ],
 })
-
