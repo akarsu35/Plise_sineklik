@@ -221,7 +221,7 @@ export function NavbarWithMegaMenu() {
     const handleScroll = () => {
       const offset = window.scrollY
       // console.log(offset)
-      if (offset > 64) {
+      if (offset > -1) {
         // Adjust the value as per your requirement
         setIsSticky(true)
       } else {

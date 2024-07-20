@@ -9,6 +9,7 @@ import Campaigns from './components/campaigns/Campaigns'
 function App() {
   return (
     <>
+   
       <NavbarWithMegaMenu />
       <Routes>
         <Route path="/" element={<Home />} />
