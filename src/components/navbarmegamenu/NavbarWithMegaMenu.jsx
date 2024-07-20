@@ -119,7 +119,7 @@ function NavListMenu() {
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
-              ÜRÜNLER
+              UYGULAMALARIMIZ
               <ChevronDownIcon
                 strokeWidth={2.5}
                 className={`hidden h-3 w-3 transition-transform lg:block ${
@@ -178,17 +178,6 @@ function NavList() {
       {/* dropdown menu */}
       <NavListMenu />
 
-      <Typography
-        as="a"
-        href="#"
-        variant="small"
-        color="blue-gray"
-        className="font-bold"
-      >
-        <ListItem className="flex items-center gap-2 py-2 pr-4 text-lg">
-          <Link to="/whatis-healy">UYGULAMALARIMIZ</Link>
-        </ListItem>
-      </Typography>
       <Typography
         as="a"
         href="#"

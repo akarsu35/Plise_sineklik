@@ -1,9 +1,8 @@
-export default function AboutUs() {
+import Social from "../social/Social";
+
+export default function Campaigns() {
   return (
-    <div
-      id="aboutus"
-      className="relative flex justify-center min-h-[71vh] bg-gray-500 overflow-hidden"
-    >
+    <div className="relative flex justify-center min-h-[71vh] bg-gray-500 overflow-hidden">
       <video
         autoPlay
         loop
@@ -15,7 +14,7 @@ export default function AboutUs() {
       </video>
       <div className="relative w-[80%] flex flex-col items-center text-white p-4 z-10">
         <div className="md:my-4 flex flex-col justify-center items-center">
-          <h2 className="text-4xl font-bold">HAKKIMIZDA</h2>
+          <h2 className="text-4xl font-bold">KAMPANYALAR</h2>
           <div className="w-96 h-2 bg-red-500 rounded-md"></div>
         </div>
         <div className="text-center">
@@ -24,11 +23,15 @@ export default function AboutUs() {
             memnuniyetini hedeflemekte ve garanti etmekteyiz. Katlanır, pileli
             ve akordeon sineklik çeşitleri için güvenilir hizmet ve hızlı montaj
             sunuyoruz.{' '}
+            <br />
             <span className="text-red-400">
-              Pazar günleri hariç her gün 08:00 - 18:00 saatleri{' '}
+             Kampanyalar için takipte kalın 
             </span>
-            arasında hizmet vermekteyiz.
+           
           </h3>
+          <div>
+           
+          </div>
         </div>
       </div>
     </div>

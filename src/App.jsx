@@ -5,6 +5,7 @@ import AboutUs from '../src/components/about_us/AboutUs'
 import ContactUs from '../src/components/contact-us/ContactUs'
 import {NavbarWithMegaMenu} from '../src/components/navbarmegamenu/NavbarWithMegaMenu'
 import Footer from '../src/components/footer/Footer'
+import Campaigns from './components/campaigns/Campaigns'
 function App() {
   return (
     <>
@@ -21,7 +22,7 @@ function App() {
         <Route path="/coil" element={''} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/whatis-healy" element={''} />
-        <Route path="/campaigns" element={''} />
+        <Route path="/campaigns" element={<Campaigns/>} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <Footer />
