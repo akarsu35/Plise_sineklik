@@ -13,14 +13,13 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
       </div>
-      <div className="absolute top-[40%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-center">
-       
-        <h1 className=" text-3xl md:text-5xl font-bold">
+      <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-center">
+        <h1 className=" text-3xl md:text-5xl font-bold text-nowrap text-[#58E2EB]">
           ANTALYA PLİSE SİNEKLİK
         </h1>
 
         <br />
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2 md:gap-4">
           <p className="text-3xl">İşimiz Sadece Sineklik</p>
           <br />
           <FontAwesomeIcon
@@ -42,7 +41,6 @@ export default function Hero() {
           <p className="text-2xl">Güvenilir Hizmet</p>
         </div>
       </div>
-      
     </div>
   )
 }

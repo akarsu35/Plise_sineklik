@@ -99,6 +99,7 @@ export default function ContactUs() {
             severity={snackbarSeverity}
             variant="filled"
             sx={{ width: '100%' }}
+            
           >
             {snackbarMessage}
           </Alert>
@@ -106,7 +107,7 @@ export default function ContactUs() {
       )}
       <div className="absolute text-center top-2">
         <h3 className="text-4xl font-bold">İLETİŞİM</h3>
-        <div className="w-96 h-2 bg-red-500 rounded-md"></div>
+        <div className="w-[22rem] h-2 bg-red-500 rounded-md"></div>
       </div>
 
       <div className="sm:w-[300px] md:w-[400px] lg:w-[500px] my-16">
@@ -197,7 +198,7 @@ export default function ContactUs() {
           </div>
           <button
             type="submit"
-            className="w-full bg-[#A78F4F] text-white p-2 rounded hover:bg-indigo-700 transition duration-200"
+            className="w-full bg-[#58E2EB] text-white p-2 rounded hover:bg-indigo-700 transition duration-200"
           >
             Gönder
           </button>
@@ -209,16 +210,7 @@ export default function ContactUs() {
 
           <div className="flex justify-between">
             <a
-              href="https://www.instagram.com/numeroloji_gonca" // Instagram profilinizin URL'sini buraya ekleyin
-              target="_blank" // Bağlantının yeni bir sekmede açılması için
-              rel="noopener noreferrer" // Güvenlik için
-              className="bg-[#B756A0] rounded-full p-2 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
-              aria-label="Instagram sayfamızı ziyaret et"
-            >
-              <FaInstagram className="text-white text-4xl" />
-            </a>
-            <a
-              href="https://wa.me/905510141450"
+              href="https://wa.me/905519614009"
               aria-label="WhatsApp ile iletişime geç"
               className="bg-[#B756A0] rounded-full p-2 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
             >
@@ -226,7 +218,7 @@ export default function ContactUs() {
             </a>
 
             <a
-              href="mailto:goncaakarsu35@gmail.com"
+              href="mailto:mehmetakarsu55@yandex.com"
               aria-label="E-posta gönder"
               className="bg-[#B756A0] rounded-full p-2 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
             >

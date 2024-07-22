@@ -244,18 +244,22 @@ export function NavbarWithMegaMenu() {
       }w-full`}
     >
       <Navbar fullWidth={true} className="mx-auto px-4 py-2">
-        <div className="flex items-center justify-between text-blue-gray-900">
-          <a href="#" className="pl-12">
+        <div className="flex items-center justify-between text-blue-gray-900 h-8">
+          <Link to="/" className="flex justify-center items-center">
             <img
-              width="80"
-              height="24"
-              src="./images/logo.png"
-              className="custom-logo"
-              alt="Healy Shop Turkiye"
+         
+              src="./images/logo.jpeg"
+              className="custom-logo h-8 md:w-14 md:h-12 "
+              alt="Antalya Plise sineklik"
               decoding="async"
               sizes="(max-width: 80px) 100vw, 80px"
+             
             ></img>
-          </a>
+            
+            <h2 className="font-bold text-sm ml-1 text-[#58E2EB] md:text-2xl ">
+              Antalya Plise Sineklik
+            </h2>
+          </Link>
 
           <div className="hidden lg:block">
             <NavList />

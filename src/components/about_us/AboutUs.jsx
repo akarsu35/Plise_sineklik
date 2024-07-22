@@ -16,7 +16,7 @@ export default function AboutUs() {
       <div className="relative w-[80%] flex flex-col items-center text-white p-4 z-10">
         <div className="md:my-4 flex flex-col justify-center items-center">
           <h2 className="text-4xl font-bold">HAKKIMIZDA</h2>
-          <div className="w-96 h-2 bg-red-500 rounded-md"></div>
+          <div className="w-[22rem] h-2 bg-red-500 rounded-md"></div>
         </div>
         <div className="text-center">
           <h3 className="text-3xl">
