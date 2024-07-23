@@ -8,6 +8,9 @@ module.exports = withMT({
   theme: {
     extend: {
       display: ['group-hover'],
+      backgroundImage: {
+        'hero-bg': "url('/images/herobg.jpg')",
+      },
     },
   },
   plugins: [
