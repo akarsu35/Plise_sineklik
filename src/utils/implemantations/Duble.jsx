@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa' 
@@ -47,7 +47,12 @@ export default function Duble() {
     },
   }
   return (
-    <div className='m-8'>
+    <div className="m-8 flex flex-col">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center">DUBLE SİNEKLİK</h1>
+      <div className='flex items-center justify-center'>
+        <div className="w-[22rem] h-2 bg-red-500 rounded-md"></div>
+      </div>
+
       <Carousel
         swipeable={false}
         draggable={false}
