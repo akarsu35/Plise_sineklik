@@ -11,7 +11,6 @@ import {
 
 
 export default function Implemantation({ img, title, id ,path}) {
-    
   return (
     <Card className="flex p-2 md:p-0 justify-center items-center mt-6 w-[21rem] hover:shadow-2xl">
       <CardHeader color="blue-gray" className="relative h-[26rem]">
