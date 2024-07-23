@@ -5,22 +5,22 @@ import { faRankingStar } from '@fortawesome/free-solid-svg-icons'
 import Social from '../social/Social'
 export default function Hero() {
   return (
-    <div className="">
-      <div className="relative">
+    <div className="bg-[url(./images/herobg.jpg)] bg-cover h-[90vh]">
+      {/* <div className="relative">
         <img
           src="./images/herobg.jpg"
           alt="hero-background"
           className="w-full h-[90vh]"
         />
         <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
-      </div>
-      <div className="absolute top-[45%] sm:top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-center">
-        <h1 className=" text-2xl md:text-5xl font-bold text-nowrap text-[#58E2EB]">
+      </div> */}
+      <div className=" text-white text-center">
+        <h1 className=" text-2xl md:text-5xl font-bold text-nowrap text-[#58E2EB] p-6">
           ANTALYA PLİSE SİNEKLİK
         </h1>
 
         <br />
-        <div className="flex flex-col  md:gap-4">
+        <div className="flex flex-col  md:gap-3 mt-0">
           <p className="text-2xl sm:text-3xl">İşimiz Sadece Sineklik</p>
           <br />
           <FontAwesomeIcon
@@ -42,7 +42,7 @@ export default function Hero() {
           <p className="text-2xl">Güvenilir Hizmet</p>
         </div>
       </div>
-      <div className='relative h-0 bottom-32 sm:bottom-28 ml-10 sm:ml-28'>
+      <div className="relative sm:-bottom-20 -bottom-2 ml-10 sm:ml-28">
         <Social />
       </div>
     </div>

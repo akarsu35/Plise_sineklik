@@ -12,36 +12,51 @@ import {
   MenuHandler,
   MenuList,
   MenuItem,
+  useSelect,
 } from '@material-tailwind/react'
 import {
   ChevronDownIcon,
   Bars3Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
+
 import { Link } from 'react-router-dom'
 import implementations from '../../datas/implementations'
+
+
 
 function NavListMenu({ setOpenNav }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false)
 
-  const renderItems = implementations.map(({ title, path }, key) => (
-    <Link to={path} key={key} onClick={() => setOpenNav(false)}>
-      <a href="#" key={key}>
-        <MenuItem className="flex items-center gap-3 rounded-lg w-24 h-16">
-          <div>
-            <Typography
-              variant="h6"
-              color="blue-gray"
-              className="flex items-center text-sm font-bold"
-            >
-              {title}
-            </Typography>
-          </div>
-        </MenuItem>
-      </a>
-    </Link>
-  ))
+  const renderItems = implementations.map(
+    (
+      { title, path },
+      key //dropdown menu
+    ) => (
+      <Link to={path} key={key} onClick={() => setOpenNav(false)}>
+        <a href="#" key={key}>
+          <MenuItem className="flex items-center gap-3 rounded-lg w-24 h-16">
+            <div>
+              <Typography
+                variant="h6"
+                color="blue-gray"
+                className="flex items-center text-sm font-bold"
+              >
+                {title}
+              </Typography>
+              {/* <Typography
+                variant="paragraph"
+                className="text-xs !font-medium text-blue-gray-500"
+              >
+                {description}
+              </Typography> */}
+            </div>
+          </MenuItem>
+        </a>
+      </Link>
+    )
+  )
 
   return (
     <React.Fragment>
@@ -119,6 +134,7 @@ function NavList({ setOpenNav }) {
         </ListItem>
       </Typography>
 
+      {/* dropdown menu */}
       <NavListMenu setOpenNav={setOpenNav} />
 
       <Typography
@@ -135,7 +151,15 @@ function NavList({ setOpenNav }) {
           </Link>
         </ListItem>
       </Typography>
-
+      {/* <Typography
+        as="a"
+        href="#"
+        variant="small"
+        color="blue-gray"
+        className="font-bold"
+      >
+        <ListItem className="flex items-center gap-2 py-2 pr-4">S.S.S</ListItem>
+      </Typography> */}
       <Typography
         as="a"
         href="#"
@@ -161,7 +185,9 @@ export function NavbarWithMegaMenu() {
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY
+      // console.log(offset)
       if (offset > -1) {
+        // Adjust the value as per your requirement
         setIsSticky(true)
       } else {
         setIsSticky(false)
@@ -175,6 +201,7 @@ export function NavbarWithMegaMenu() {
     }
   }, [])
 
+  //navbar main
   return (
     <div
       className={`${
@@ -191,6 +218,7 @@ export function NavbarWithMegaMenu() {
               decoding="async"
               sizes="(max-width: 80px) 100vw, 80px"
             ></img>
+
             <h2 className="font-bold text-sm ml-1 text-[#58E2EB] md:text-2xl ">
               Antalya Plise Sineklik
             </h2>
