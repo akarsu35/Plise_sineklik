@@ -2,7 +2,8 @@ import { Helmet } from 'react-helmet'
 import AboutUs from '../about_us/AboutUs'
 import ContactUs from '../contact-us/ContactUs'
 import Hero from '../hero/Hero'
-import Works from '../works/Works'
+import ImplementationList from '../implemantationList/ImplementationList'
+
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
         />
       </Helmet>
       <Hero />
-      <Works />
+     <ImplementationList/>
       <AboutUs />
       <ContactUs />
     </>

@@ -31,52 +31,53 @@ import {
   UserGroupIcon,
 } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom'
+import implementations from '../../datas/implementations'
 
-const navListMenuItems = [
-  {
-    title: 'PENCERE SİNEKLİĞİ',
-    description: 'Find the perfect solution for your needs.',
-    icon: SquaresPlusIcon,
-    path: '/healy-gold-edition',
-  },
-  {
-    title: 'DUBLE SİNEKLİK',
-    description: 'Meet and learn about our dedication',
-    icon: UserGroupIcon,
-    path: '/healy-holistic-edition',
-  },
-  {
-    title: 'FRANSIZ BALKON',
-    description: 'Find the perfect solution for your needs.',
-    icon: Bars4Icon,
-    path: '/healy-resonance-edition',
-  },
-  {
-    title: 'CAM BALKON SİNEKLİĞİ',
-    description: 'Learn how we can help you achieve your goals.',
-    icon: SunIcon,
-    path: '/healy-resonance-plus-edition',
-  },
-  {
-    title: 'KAPI SİNEKLİĞİ',
-    description: 'Reach out to us for assistance or inquiries',
-    icon: GlobeAmericasIcon,
-    path: '/healy-professional-edition',
-  },
-  {
-    title: 'ÇİFT AÇILIR SİNEKLİK',
-    description: 'Find the perfect solution for your needs.',
-    icon: PhoneIcon,
-    path: '/maghealy-classic-edition',
-  },
-]
+// const navListMenuItems = [
+//   {
+//     title: 'PENCERE SİNEKLİĞİ',
+//     description: 'Find the perfect solution for your needs.',
+    
+//     path: '/healy-gold-edition',
+//   },
+//   {
+//     title: 'DUBLE SİNEKLİK',
+//     description: 'Meet and learn about our dedication',
+  
+//     path: '/healy-holistic-edition',
+//   },
+//   {
+//     title: 'FRANSIZ BALKON',
+//     description: 'Find the perfect solution for your needs.',
+  
+//     path: '/healy-resonance-edition',
+//   },
+//   {
+//     title: 'CAM BALKON SİNEKLİĞİ',
+//     description: 'Learn how we can help you achieve your goals.',
+   
+//     path: '/healy-resonance-plus-edition',
+//   },
+//   {
+//     title: 'KAPI SİNEKLİĞİ',
+//     description: 'Reach out to us for assistance or inquiries',
+   
+//     path: '/healy-professional-edition',
+//   },
+//   {
+//     title: 'ÇİFT AÇILIR SİNEKLİK',
+//     description: 'Find the perfect solution for your needs.',
+  
+//     path: '/maghealy-classic-edition',
+//   },
+// ]
 
 function NavListMenu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false)
-  const renderItems = navListMenuItems.map(
+  const renderItems = implementations.map(
     (
-      { icon, title, description, path },
+      {  title, path },
       key //dropdown menu
     ) => (
       <Link to={path} key={key}>
