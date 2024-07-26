@@ -55,7 +55,7 @@ export default function ContactUs() {
       emailjs
         .sendForm(
           'service_8fswi94',
-          'template_wrvbani',
+          'template_1kibc4y',
           form.current,
           'ZnvXBV0MSnNjP-SvH'
         )
