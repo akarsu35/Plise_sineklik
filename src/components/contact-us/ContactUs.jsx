@@ -31,29 +31,33 @@ export default function ContactUs() {
     setEmail(e.target.email.value)
     setMessage(e.target.message.value)
     // console.log(e)
-    // console.log(e.target.name.value,e.target.email,e.target.message)
+    //console.log(e.target.name.value,e.target.email,e.target.message)
     if (e.target.name.value === '') {
+     
       // alert('Lütfen isminizi giriniz')
       setSnackbarMessage('Lütfen isminizi giriniz')
       setSnackbarSeverity('error')
       setIsSnackbar(true)
     } else if (e.target.email.value === '') {
+      
       // alert('Lütfen e-postanızı giriniz')
       setSnackbarMessage('Lütfen e-postanızı giriniz')
       setSnackbarSeverity('error')
       setIsSnackbar(true)
     } else if (e.target.message.value === '') {
+      
       // alert('Lütfen mesajınızı giriniz')
       setSnackbarMessage('Lütfen mesajınızı giriniz')
       setSnackbarSeverity('error')
       setIsSnackbar(true)
     } else {
+      
       emailjs
         .sendForm(
-          'service_42891ip',
+          'service_8fswi94',
           'template_wrvbani',
           form.current,
-          'tC1TW-Wv2iQYsTp_j'
+          'ZnvXBV0MSnNjP-SvH'
         )
         .then(
           (result) => {
