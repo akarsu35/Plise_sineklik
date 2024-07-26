@@ -71,7 +71,7 @@ export default function Kapi() {
        >
          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/1.jpeg"
+             src="./images/kapı-sinekliği/1.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
@@ -79,91 +79,140 @@ export default function Kapi() {
 
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/2.jpeg"
+             src="./images/kapı-sinekliği/2.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/3.jpeg"
+             src="./images/kapı-sinekliği/3.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/4.jpeg"
+             src="./images/kapı-sinekliği/4.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/5.jpeg"
+             src="./images/kapı-sinekliği/5.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/6.jpeg"
+             src="./images/kapı-sinekliği/6.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/7.jpeg"
+             src="./images/kapı-sinekliği/7.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/8.jpeg"
+             src="./images/kapı-sinekliği/8.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/9.jpeg"
+             src="./images/kapı-sinekliği/9.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/10.jpeg"
+             src="./images/kapı-sinekliği/10.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/11.jpeg"
+             src="./images/kapı-sinekliği/11.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/12.jpeg"
+             src="./images/kapı-sinekliği/12.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/13.jpeg"
+             src="./images/kapı-sinekliği/13.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
          </div>
          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
            <img
-             src="./images/duble/14.jpeg"
+             src="./images/kapı-sinekliği/14.jpeg"
+             alt=""
+             className="p-2 h-full w-full object-cover"
+           />
+         </div>
+         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+           <img
+             src="./images/kapı-sinekliği/15.jpeg"
+             alt=""
+             className="p-2 h-full w-full object-cover"
+           />
+         </div>
+         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+           <img
+             src="./images/kapı-sinekliği/16.jpeg"
+             alt=""
+             className="p-2 h-full w-full object-cover"
+           />
+         </div>
+         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+           <img
+             src="./images/kapı-sinekliği/17.jpeg"
+             alt=""
+             className="p-2 h-full w-full object-cover"
+           />
+         </div>
+         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+           <img
+             src="./images/kapı-sinekliği/18.jpeg"
+             alt=""
+             className="p-2 h-full w-full object-cover"
+           />
+         </div>
+         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+           <img
+             src="./images/kapı-sinekliği/19.jpeg"
+             alt=""
+             className="p-2 h-full w-full object-cover"
+           />
+         </div>
+         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+           <img
+             src="./images/kapı-sinekliği/20.jpeg"
+             alt=""
+             className="p-2 h-full w-full object-cover"
+           />
+         </div>
+         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+           <img
+             src="./images/kapı-sinekliği/21.jpeg"
              alt=""
              className="p-2 h-full w-full object-cover"
            />
