@@ -16,16 +16,13 @@ import Surgulu from './utils/implemantations/Surgulu'
 
 
 function App() {
-  console.log(implementations[3])
+  
   return (
     <>
       <Helmet>
-        <title>Plise-Sineklik | Eviniz artık daha sessiz</title>
-        <meta
-          name="description"
-          content="Plise sineklik Antalya olarak hizmet sunmaktayız"
-        />
-        <meta name="keywords" content="plise, sineklik, antalya" />
+        <title>Plise Sineklik | Ana Sayfa</title>
+        <meta name="description" content="Plise sineklik ürünlerimizle evinizi daha rahat ve sessiz hale getirin." />
+        <meta name="keywords" content="plise sineklik, ana sayfa" />
       </Helmet>
 
       <NavbarWithMegaMenu />
@@ -37,10 +34,10 @@ function App() {
         <Route path={implementations[4].path} element={<Fransiz/>} />
         <Route path="/" element={<Home />} />
 
-        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/hakkımızda" element={<AboutUs />} />
 
-        <Route path="/campaigns" element={<Campaigns />} />
-        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/kampanyalar" element={<Campaigns />} />
+        <Route path="/iletişim" element={<ContactUs />} />
       </Routes>
       <Footer />
     </>

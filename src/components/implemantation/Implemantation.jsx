@@ -30,14 +30,7 @@ export default function Implemantation({ img, title, id ,path}) {
           <Link to={path}>ÜRÜNÜ İNCELE</Link>
         </Button>
       </CardFooter>
-      {/* {showGold && <HealyGoldEdition />}
-      {showHolistic && <HealyHolisticEdition />}
-      {showResonance && <HealyResonanceEdition />}
-      {showResonancePlus && <HealyResonancePlusEdition />}
-      {showProfessional && <HealyProfessionalEdition/>}
-      {showMagHealyClassic && <MagHealyClassic/>}
-      {showMagHealyProfessional && <MagHealyProfessional/>}
-      {showCoil && <Coil/>} */}
+    
     </Card>
   )
 }

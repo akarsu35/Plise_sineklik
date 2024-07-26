@@ -1,7 +1,7 @@
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
-
+import { Helmet } from 'react-helmet'
 const CustomLeftArrow = ({ onClick }) => {
   return (
     <button
@@ -44,180 +44,190 @@ export default function Kapi() {
      },
    }
    return (
-     <div className="m-8 flex flex-col">
-       <h1 className="text-3xl sm:text-4xl font-bold text-center">
-         KAPI SİNEKLİĞİ
-       </h1>
-       <div className="flex items-center justify-center">
-         <div className="w-[22rem] h-2 bg-red-500 rounded-md"></div>
+     <>
+       <Helmet>
+         <title>Kapı | Plise-Sineklik</title>
+         <meta
+           name="description"
+           content="Kapı uygulamamız hakkında bilgi edinin"
+         />
+         <meta name="keywords" content="kapı, plise, sineklik" />
+       </Helmet>
+       <div className="m-8 flex flex-col">
+         <h1 className="text-3xl sm:text-4xl font-bold text-center">
+           KAPI SİNEKLİĞİ
+         </h1>
+         <div className="flex items-center justify-center">
+           <div className="w-[22rem] h-2 bg-red-500 rounded-md"></div>
+         </div>
+
+         <Carousel
+           swipeable={false}
+           draggable={false}
+           showDots={true}
+           responsive={responsive}
+           ssr={true} // means to render carousel on server-side.
+           infinite={true}
+           autoPlaySpeed={1000}
+           keyBoardControl={true}
+           transitionDuration={500}
+           containerClass="carousel-container"
+           removeArrowOnDeviceType={[]} // remove this line to always show arrows
+           customLeftArrow={<CustomLeftArrow />}
+           customRightArrow={<CustomRightArrow />}
+           dotListClass="custom-dot-list-style"
+           itemClass="carousel-item-padding-20-px"
+         >
+           <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/1.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/2.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/3.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/4.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/5.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/6.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/7.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/8.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/9.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/10.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/11.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/12.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/13.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/14.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/15.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/16.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/17.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/18.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/19.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/20.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/21.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+         </Carousel>
        </div>
-
-       <Carousel
-         swipeable={false}
-         draggable={false}
-         showDots={true}
-         responsive={responsive}
-         ssr={true} // means to render carousel on server-side.
-         infinite={true}
-         autoPlaySpeed={1000}
-         keyBoardControl={true}
-         transitionDuration={500}
-         containerClass="carousel-container"
-         removeArrowOnDeviceType={[]} // remove this line to always show arrows
-         customLeftArrow={<CustomLeftArrow />}
-         customRightArrow={<CustomRightArrow />}
-         dotListClass="custom-dot-list-style"
-         itemClass="carousel-item-padding-20-px"
-       >
-         <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/1.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/2.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/3.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/4.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/5.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/6.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/7.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/8.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/9.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/10.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/11.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/12.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/13.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/14.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/15.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/16.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/17.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/18.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/19.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/20.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-         <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
-           <img
-             src="./images/kapı-sinekliği/21.jpeg"
-             alt=""
-             className="p-2 h-full w-full object-cover"
-           />
-         </div>
-       </Carousel>
-     </div>
+     </>
    )
 }

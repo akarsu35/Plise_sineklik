@@ -35,7 +35,7 @@ function NavListMenu({ setOpenNav }) {
       key //dropdown menu
     ) => (
       <Link to={path} key={key} onClick={() => setOpenNav(false)}>
-        <a href="#" key={key}>
+        <a href={path} key={key}>
           <MenuItem className="flex items-center gap-3 rounded-lg w-24 h-16">
             <div>
               <Typography
@@ -108,7 +108,7 @@ function NavList({ setOpenNav }) {
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
       <Typography
         as="a"
-        href="#"
+        href='#'
         variant="small"
         color="blue-gray"
         className="font-bold"
@@ -128,7 +128,7 @@ function NavList({ setOpenNav }) {
         className="font-bold"
       >
         <ListItem className="flex items-center gap-2 py-2 pr-4 text-lg">
-          <Link to="/about-us" onClick={() => setOpenNav(false)}>
+          <Link to="/hakkımızda" onClick={() => setOpenNav(false)}>
             HAKKIMIZDA
           </Link>
         </ListItem>
@@ -145,7 +145,7 @@ function NavList({ setOpenNav }) {
         className="font-bold"
       >
         <ListItem className="flex items-center gap-2 py-2 pr-4 text-lg">
-          <Link to="/campaigns" onClick={() => setOpenNav(false)}>
+          <Link to="/kampanyalar" onClick={() => setOpenNav(false)}>
             {' '}
             KAMPANYALAR
           </Link>
@@ -168,7 +168,7 @@ function NavList({ setOpenNav }) {
         className="font-bold"
       >
         <ListItem className="flex items-center gap-2 py-2 pr-4 text-lg">
-          <Link to="/contact-us" onClick={() => setOpenNav(false)}>
+          <Link to="/iletişim" onClick={() => setOpenNav(false)}>
             {' '}
             İLETİŞİM
           </Link>

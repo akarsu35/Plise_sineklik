@@ -4,7 +4,6 @@ import ContactUs from '../contact-us/ContactUs'
 import Hero from '../hero/Hero'
 import ImplementationList from '../implemantationList/ImplementationList'
 
-
 export default function Home() {
   return (
     <>
@@ -16,11 +15,11 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="antalya, plise, sineklik , plise sineklik, ana sayfa"
+          content="antalya, plise, sineklik , plise sineklik, anasayfa"
         />
       </Helmet>
       <Hero />
-     <ImplementationList/>
+      <ImplementationList />
       <AboutUs />
       <ContactUs />
     </>
