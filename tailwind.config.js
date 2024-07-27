@@ -11,6 +11,8 @@ module.exports = withMT({
       backgroundImage: {
         'hero-bg': "url('/images/herobg.jpg')",
       },
+      screens: {
+        '1366x768': { 'raw': '(width: 1366px) and (height: 768px)' },}
     },
   },
   plugins: [
