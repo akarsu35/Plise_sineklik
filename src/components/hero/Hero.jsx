@@ -5,7 +5,7 @@ import { faRankingStar } from '@fortawesome/free-solid-svg-icons'
 import Social from '../social/Social'
 export default function Hero() {
   return (
-    <div className="bg-hero-bg bg-contain  min-h-[90vh] 1366x768:h-[1250px]">
+    <div className="bg-hero-bg bg-cover min-h-[90vh] 1366x768:h-[850px]">
       {/* <div className="relative">
         <img
           src="./images/herobg.jpg"
@@ -42,7 +42,7 @@ export default function Hero() {
           <p className="text-2xl">Güvenilir Hizmet</p>
         </div>
       </div>
-      <div className="relative sm:-bottom-20 -bottom-2  ml-10 sm:ml-28 1366x768:">
+      <div className="relative sm:-bottom-20 -bottom-2  ml-10 sm:ml-28 1366x768:bottom-0">
         <Social />
       </div>
     </div>
