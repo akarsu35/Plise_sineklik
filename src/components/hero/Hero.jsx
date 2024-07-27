@@ -42,7 +42,7 @@ export default function Hero() {
           <p className="text-2xl">Güvenilir Hizmet</p>
         </div>
       </div>
-      <div className="relative sm:-bottom-20 -bottom-2  ml-10 sm:ml-28 1366x768:bottom-0">
+      <div className="relative sm:-bottom-20 -bottom-2  ml-10 sm:ml-28 1366x768:bottom-10">
         <Social />
       </div>
     </div>
