@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Plise Sineklik | Ana Sayfa</title>
+      
         <meta name="description" content="Plise sineklik ürünlerimizle evinizi daha rahat ve sessiz hale getirin." />
         <meta name="keywords" content="plise sineklik, ana sayfa" />
       </Helmet>
