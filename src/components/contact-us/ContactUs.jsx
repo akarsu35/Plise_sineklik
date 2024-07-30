@@ -94,7 +94,7 @@ export default function ContactUs() {
   return (
     <>
       <Helmet>
-        <title>İletişim | Plise-Sineklik</title>
+       
         <meta name="description" content="Bizimle iletişime geçin" />
         <meta
           name="keywords"
