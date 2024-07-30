@@ -6,7 +6,10 @@ export default function Campaigns() {
       <Helmet>
         <title>Kampanyalar | Plise-Sineklik</title>
         <meta name="description" content="En son kampanyalarımızı inceleyin" />
-        <meta name="keywords" content="kampanyalar, plise, sineklik" />
+        <meta
+          name="keywords"
+          content="kampanyalar, plise, sineklik,hurma sineklik,hurma,konyaaltı sineklik,lara sineklik"
+        />
       </Helmet>
       <div className="relative flex justify-center min-h-[71vh] bg-gray-500 overflow-hidden">
         <video

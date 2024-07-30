@@ -51,7 +51,10 @@ export default function Surgulu() {
           name="description"
           content="Sürgülü uygulamamız hakkında bilgi edinin"
         />
-        <meta name="keywords" content="sürgülü, plise, sineklik" />
+        <meta
+          name="keywords"
+          content="sürgülü, plise, sineklik,hurma sineklik,hurma,konyaaltı sineklik,lara sineklik"
+        />
       </Helmet>
       <div className="m-8 flex flex-col">
         <h1 className="text-3xl sm:text-4xl font-bold text-center">

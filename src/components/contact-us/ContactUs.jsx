@@ -96,7 +96,10 @@ export default function ContactUs() {
       <Helmet>
         <title>İletişim | Plise-Sineklik</title>
         <meta name="description" content="Bizimle iletişime geçin" />
-        <meta name="keywords" content="iletişim, plise, sineklik" />
+        <meta
+          name="keywords"
+          content="iletişim, plise, sineklik,hurma sineklik,hurma,konyaaltı sineklik,lara sineklik"
+        />
       </Helmet>
       <div className="relative min-h-[72.7vh] bg-gray-100 flex flex-col items-center justify-center lg:flex-row">
         {isSnackbar && (

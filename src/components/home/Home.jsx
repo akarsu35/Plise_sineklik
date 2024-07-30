@@ -15,7 +15,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="antalya, plise, sineklik , plise sineklik, anasayfa"
+          content="antalya, plise, sineklik , plise sineklik, anasayfa,hurma sineklik,hurma,konyaaltı sineklik,lara sineklik"
         />
       </Helmet>
       <Hero />

@@ -51,7 +51,10 @@ export default function Pencere() {
           name="description"
           content="Pencere uygulamamız hakkında bilgi edinin"
         />
-        <meta name="keywords" content="pencere, plise, sineklik" />
+        <meta
+          name="keywords"
+          content="pencere, plise, sineklik,hurma sineklik,hurma,konyaaltı sineklik,lara sineklik"
+        />
       </Helmet>
       <div className="m-8 flex flex-col">
         <h1 className="text-3xl sm:text-4xl font-bold text-center">
