@@ -4,7 +4,9 @@ import { Helmet } from "react-helmet"
 export default function AboutUs() {
   return (
     <>
+    
       <Helmet>
+        
         <title>Hakkımızda | Plise-Sineklik</title>
         <meta name="description" content="Hakkımızda daha fazla bilgi edinin" />
         <meta name="keywords" content="hakkımızda, plise, sineklik" />
