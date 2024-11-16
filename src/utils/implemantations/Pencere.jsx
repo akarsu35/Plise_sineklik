@@ -83,6 +83,90 @@ export default function Pencere() {
         >
           <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
             <img
+              src="./images/pencere-sineklik/ozel4.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel2.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel3.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel1.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel5.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel6.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel7.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel8.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel9.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel10.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel11.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
+              src="./images/pencere-sineklik/ozel12.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white  h-[550px] mb-20 group relative">
+            <img
               src="./images/pencere-sineklik/1.jpeg"
               alt=""
               className="p-2 h-full w-full object-cover"

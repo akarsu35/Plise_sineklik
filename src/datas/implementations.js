@@ -9,7 +9,7 @@ const implementations = [
     id: 2,
     title: 'Pencere Sinekliği',
     path: '/pencere-sinekliği',
-    img: './images/pencere-sineklik/pencere.jpg',
+    img: './images/pencere-sineklik/ozel4.jpeg',
   },
   {
     id: 3,
