@@ -29,5 +29,10 @@ const implementations = [
     path: '/fransız-balkon',
     img: './images/fransız-balkon/fransız.jpeg',
   },
+  {
+    id: 6,
+    title: 'Cam Balkon Perdesi',
+    path: '/cam-balkon-perdesi',
+    img: './images/cam-balkon-perdesi/cam-balkon.jpeg'}
 ]
 export default implementations;

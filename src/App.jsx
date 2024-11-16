@@ -13,6 +13,7 @@ import Fransiz from './utils/implemantations/Fransiz'
 import Kapi from './utils/implemantations/Kapi'
 import Pencere from './utils/implemantations/Pencere'
 import Surgulu from './utils/implemantations/Surgulu'
+import CamBalkonPerdesi from './utils/implemantations/CamBalkonPerdesi'
 
 
 function App() {
@@ -20,8 +21,10 @@ function App() {
   return (
     <>
       <Helmet>
-      
-        <meta name="description" content="Plise sineklik ürünlerimizle evinizi daha rahat ve sessiz hale getirin." />
+        <meta
+          name="description"
+          content="Plise sineklik ürünlerimizle evinizi daha rahat ve sessiz hale getirin."
+        />
         <meta name="keywords" content="plise sineklik, ana sayfa" />
       </Helmet>
 
@@ -30,8 +33,9 @@ function App() {
         <Route path={implementations[0].path} element={<Duble />} />
         <Route path={implementations[1].path} element={<Pencere />} />
         <Route path={implementations[2].path} element={<Surgulu />} />
-        <Route path={implementations[3].path} element={<Kapi/>} />
-        <Route path={implementations[4].path} element={<Fransiz/>} />
+        <Route path={implementations[3].path} element={<Kapi />} />
+        <Route path={implementations[4].path} element={<Fransiz />} />
+        <Route path={implementations[5].path} element={<CamBalkonPerdesi/>} />
         <Route path="/" element={<Home />} />
 
         <Route path="/hakkımızda" element={<AboutUs />} />
