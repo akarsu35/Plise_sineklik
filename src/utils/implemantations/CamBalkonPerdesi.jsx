@@ -106,15 +106,83 @@ export default function CamBalkonPerdesi() {
           </div>
           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
             <img
-              src="./images/cam-balkon-perdesi/cam-balkon3.jpeg"
+              src="./images/cam-balkon-perdesi/cam-balkon4.jpeg"
               alt=""
               className="p-2 h-full w-full object-cover"
             />
           </div>
-          
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon5.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon6.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon7.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon8.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon9.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon10.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon11.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon12.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon13.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon14.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
         </Carousel>
       </div>
     </>
   )
 }
-
