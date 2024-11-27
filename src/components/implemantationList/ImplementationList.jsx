@@ -7,7 +7,7 @@ export default function ImplementationList() {
       id="healylist"
       className="flex flex-col justify-center items-center my-10"
     >
-      <h1 className="text-3xl sm:text-5xl font-bold mb-2">UYGULAMARIMIZ</h1>
+      <h1 className="text-3xl sm:text-5xl font-bold mb-2">UYGULAMALARIMIZ</h1>
       <div className="w-[22rem] h-2 bg-red-500 rounded-md mb-6"></div>
       <div className="md:ml-5 w-[90%] flex">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 md:mx-auto">

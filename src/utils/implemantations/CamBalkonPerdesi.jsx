@@ -54,7 +54,7 @@ export default function CamBalkonPerdesi() {
         />
         <meta
           name="keywords"
-          content="kapı, plise, sineklik,hurma sineklik,hurma,konyaaltı sineklik,lara sineklik"
+          content="kapı, plise, sineklik,hurma sineklik,hurma,konyaaltı sineklik,lara sineklik,Cam balkon perdesi,Katlanır cam balkon perdesi"
         />
       </Helmet>
       <div className="m-8 flex flex-col">
