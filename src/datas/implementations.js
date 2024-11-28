@@ -1,6 +1,6 @@
 const implementations = [
   {
-    id: 6,
+    id: 1,
     title: 'Cam Balkon Perdesi',
     path: '/cam-balkon-perdesi',
     img: './images/cam-balkon-perdesi/cam-balkon.jpeg',
@@ -31,7 +31,7 @@ const implementations = [
   },
 
   {
-    id: 1,
+    id: 6,
     title: 'Duble Sineklik',
     path: '/duble-sineklik',
     img: './images/duble/duble.jpeg',
