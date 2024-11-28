@@ -209,18 +209,18 @@ export function NavbarWithMegaMenu() {
       }w-full`}
     >
       <Navbar fullWidth={true} className="mx-auto px-4 py-2">
-        <div className="flex items-center justify-between text-blue-gray-900 h-8">
+        <div className="flex items-center justify-between text-blue-gray-900 h-20 xl:h-10">
           <Link to="/" className="flex justify-center items-center">
             <img
               src="./images/logo.jpeg"
-              className="custom-logo h-8 md:w-14 md:h-12 "
+              className="custom-logo h-8 md:w-14 md:h-14 rounded-full"
               alt="Antalya Plise sineklik"
               decoding="async"
               sizes="(max-width: 80px) 100vw, 80px"
             ></img>
 
-            <h2 className="font-bold text-sm ml-1 text-[#58E2EB] md:text-2xl ">
-              Antalya Plise Sineklik
+            <h2 className="font-bold text-sm ml-1 text-[#58E2EB] md:text-2xl">
+              Akay Plise Perde & Sineklik
             </h2>
           </Link>
 

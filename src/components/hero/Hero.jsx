@@ -15,15 +15,14 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
       </div> */}
       <div className=" text-white text-center">
-        <h1 className=" text-2xl md:text-5xl font-bold text-nowrap text-[#58E2EB] p-10">
-          ANTALYA PLİSE SİNEKLİK
+        <h1 className="text-2xl flex flex-col md:flex-row justify-center items-center md:text-5xl font-bold text-wrap text-[#58E2EB] p-10">
+          AKAY PLİSE PERDE <span className="mx-2">&</span> SİNEKLİK
         </h1>
 
-        
         <div className="flex flex-col  md:gap-3 mt-0">
           {/* <p className="text-2xl sm:text-3xl">İşimiz Sadece Sineklik</p> */}
           <br />
-       
+
           <FontAwesomeIcon
             icon={faTruckFast}
             className="text-5xl text-[#D74008]"
