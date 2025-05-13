@@ -229,6 +229,27 @@ export default function Kapi() {
                className="p-2 h-full w-full object-cover"
              />
            </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/22.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/23.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
+           <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+             <img
+               src="./images/kapı-sinekliği/24.jpeg"
+               alt=""
+               className="p-2 h-full w-full object-cover"
+             />
+           </div>
          </Carousel>
        </div>
      </>
