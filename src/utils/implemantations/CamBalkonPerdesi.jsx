@@ -181,6 +181,41 @@ export default function CamBalkonPerdesi() {
               className="p-2 h-full w-full object-cover"
             />
           </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon15.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon16.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon17.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon18.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col m-2 rounded-md bg-white h-[550px] mb-20 group relative">
+            <img
+              src="./images/cam-balkon-perdesi/cam-balkon19.jpeg"
+              alt=""
+              className="p-2 h-full w-full object-cover"
+            />
+          </div>
         </Carousel>
       </div>
     </>
